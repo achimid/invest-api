@@ -1,22 +1,47 @@
 # lo-invest-api
 
-==============================================
-Tasks
-==============================================
+Essa API tem como objetivo agregar as informações publicas do mercado financeiro (FIIs, Ações, ETFs, REITs), coletadas automaticamente de sites como StatusInvest, Investidor10 e B3 e disponibilizar de uma forma estruturada e publica para acessar via API Rest.
 
-- criar o projeto com spring initializer
-- install docker
-- criar docker compose dentro do projeto
-- criar estruturas de pastas clean arquiteture
-- configurações conexoes com o banco
-- criar end point fiis
-- criar os testes integração
+O segundo objetivo é como forma de aprendizado para coficiação de projetos.
+
+A API será criada utilizando Java, SpringBoot, Docker e outras tecnologias ainda não definidas.
 
 
+----------------------------------------------
+TODOs
+----------------------------------------------
 
-==============================================
-Endpoint de informações de Fundos Imobiliários
-==============================================
+- Criar o projeto com spring initializer
+- Install docker na maquina
+- Criar docker compose file dentro do projeto
+- Criar estruturas de pastas clean arquiteture
+- Configurações conexoes com o banco
+- Criar endpoints mencionados abaixo
+
+
+----------------------------------------------
+Planejamento dos Endpoints
+
+```
+GET - /api/v1/fiis/{ticker}
+GET - /api/v1/fiagros/{ticker}
+GET - /api/v1/fi-infra/{ticker}
+GET - /api/v1/acoes/{ticker}
+GET - /api/v1/stocks/{ticker}
+GET - /api/v1/bdrs/{ticker}
+GET - /api/v1/reits/{ticker}
+GET - /api/v1/etfs/{ticker}
+
+POST - /api/v1/injestion/event - Authenticado/Protegido
+
+```
+
+* Entender se a melhor estrategia é criar um enpoint/controller especifico para cada um dos tipos de informações (fiis, ações, stocks...) ou a possibilidade de criar um endpoint só que de forma dinamica retornar as informações.
+
+
+----------------------------------------------
+
+```
 GET - /api/v1/fiis/{ticker}
 
 Response:
@@ -37,8 +62,8 @@ Response:
     "portfolio": {},
     "announcements": {}
 }
-
-==============================================
+```
+----------------------------------------------
 
 
 
