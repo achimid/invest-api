@@ -1,6 +1,20 @@
 # lo-invest-api
 
 ==============================================
+Tasks
+==============================================
+
+- criar o projeto com spring initializer
+- install docker
+- criar docker compose dentro do projeto
+- criar estruturas de pastas clean arquiteture
+- configurações conexoes com o banco
+- criar end point fiis
+- criar os testes integração
+
+
+
+==============================================
 Endpoint de informações de Fundos Imobiliários
 ==============================================
 GET - /api/v1/fiis/{ticker}
@@ -26,6 +40,6 @@ Response:
 
 ==============================================
 
-teste
+
 
 
