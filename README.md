@@ -11,11 +11,11 @@ A API será criada utilizando Java, SpringBoot, Docker e outras tecnologias aind
 TODOs
 ----------------------------------------------
 
-- Criar o projeto com spring initializer
-- Install docker na maquina
-- Criar docker compose file dentro do projeto
-- Criar estruturas de pastas clean arquiteture
-- Configurações conexoes com o banco
+- Criar o projeto com spring initializer x
+- Install docker na maquina x
+- Criar docker compose file dentro do projeto x
+- Criar estruturas de pastas clean arquiteture x
+- Configurações conexoes com o banco 
 - Criar endpoints mencionados abaixo
 
 
