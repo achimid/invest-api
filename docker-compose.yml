@@ -1,9 +1,14 @@
-version: '3.8'
+version: '3.3'
 
 services:
-  database:
-    image: mongo:latest
+  mongodb:
+    image: 'bitnami/mongodb:4.0'
     ports:
-      - "8080:8080"
+      - "27017:27017"
     volumes:
-      - ./data:/data/db
+      - 'mongodb_data:/bitnami'
+
+volumes:
+  mongodb_data:
+    driver: local
+
