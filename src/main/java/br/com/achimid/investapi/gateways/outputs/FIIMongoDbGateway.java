@@ -1,9 +1,9 @@
-package br.com.achimid.lo_invest_api.gateways.outputs;
+package br.com.achimid.investapi.gateways.outputs;
 
 
-import br.com.achimid.lo_invest_api.domains.FII;
-import br.com.achimid.lo_invest_api.gateways.outputs.mappers.FIIOutPutMapper;
-import br.com.achimid.lo_invest_api.gateways.outputs.mongodb.FIIDocument;
+import br.com.achimid.investapi.domains.FII;
+import br.com.achimid.investapi.gateways.outputs.mappers.FIIOutPutMapper;
+import br.com.achimid.investapi.gateways.outputs.mongodb.FIIDocument;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 

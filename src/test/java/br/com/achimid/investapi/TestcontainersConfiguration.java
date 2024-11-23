@@ -1,4 +1,4 @@
-package br.com.achimid.lo_invest_api;
+package br.com.achimid.investapi;
 
 import org.springframework.boot.test.context.TestConfiguration;
 import org.springframework.boot.testcontainers.service.connection.ServiceConnection;

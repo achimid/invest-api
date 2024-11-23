@@ -1,4 +1,4 @@
-package br.com.achimid.lo_invest_api.gateways.outputs.mongodb;
+package br.com.achimid.investapi.gateways.outputs.mongodb;
 
 import lombok.Data;
 import org.springframework.data.annotation.Id;

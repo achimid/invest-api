@@ -1,4 +1,4 @@
-package br.com.achimid.lo_invest_api.gateways.outputs.http;
+package br.com.achimid.investapi.gateways.outputs.http;
 
 import lombok.Builder;
 import lombok.Data;

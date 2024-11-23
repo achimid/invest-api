@@ -1,4 +1,4 @@
-# lo-invest-api
+# invest-api
 
 Essa API tem como objetivo agregar as informações publicas do mercado financeiro (FIIs, Ações, ETFs, REITs), coletadas automaticamente de sites como StatusInvest, Investidor10 e B3 e disponibilizar de uma forma estruturada e publica para acessar via API Rest.
 

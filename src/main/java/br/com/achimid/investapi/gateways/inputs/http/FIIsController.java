@@ -1,8 +1,8 @@
-package br.com.achimid.lo_invest_api.gateways.inputs.http;
+package br.com.achimid.investapi.gateways.inputs.http;
 
-import br.com.achimid.lo_invest_api.gateways.inputs.http.responses.FIIResponse;
-import br.com.achimid.lo_invest_api.gateways.inputs.mappers.FIIInputMapper;
-import br.com.achimid.lo_invest_api.usecases.GetFIIByTicker;
+import br.com.achimid.investapi.gateways.inputs.http.responses.FIIResponse;
+import br.com.achimid.investapi.gateways.inputs.mappers.FIIInputMapper;
+import br.com.achimid.investapi.usecases.GetFIIByTicker;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 

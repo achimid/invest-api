@@ -1,6 +1,6 @@
-package br.com.achimid.lo_invest_api;
+package br.com.achimid.investapi;
 
-import br.com.achimid.lo_invest_api.gateways.outputs.http.PuppeteerExecutorAchimidAPI;
+import br.com.achimid.investapi.gateways.outputs.http.PuppeteerExecutorAchimidAPI;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
@@ -8,7 +8,7 @@ import org.springframework.context.annotation.Import;
 
 @Import(TestcontainersConfiguration.class)
 @SpringBootTest
-class LoInvestApiApplicationTests {
+class InvestApiApplicationTests {
 
     @Autowired
     private PuppeteerExecutorAchimidAPI puppeteerExecutorAchimidAPI;

@@ -1,4 +1,4 @@
-package br.com.achimid.lo_invest_api.domains;
+package br.com.achimid.investapi.domains;
 
 import lombok.Data;
 
